@@ -125,3 +125,4 @@ bsoncxx::builder::basic::document SessionAgregator::getFilter(std::string userLo
     return filter;
 }
 // Nikita extra commit
+
