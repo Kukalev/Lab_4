@@ -26,7 +26,7 @@ bool SessionAgregator::sessionDead(std::string uuidForSession) {
         return false;
     }
 
-    return true;
+    return false;
 }
 
 void SessionAgregator::updateSessionTime(const std::string &uuidForSession, Session &thisSession) {
